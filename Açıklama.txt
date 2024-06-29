@@ -1,0 +1,11 @@
+1)Misc Dosyasında yazılı olan uygulamaların kurulu olduğundan emin olun
+!!!!! ROS, Linux tabanlı bir işletim sisteminde çalışır (Tercihen Ubuntu 20.04 (Ben onu kullandım))!!!!! 
+2)Telefonunuzu geliştirici moda getirin.
+4)Kodun içerisinde Websocket bağlantısı kullanılmıştır bu nedenle mobil cihazınızın ve bilgisayarınızın aynı internet bağlantısına sahip olduğundan emin olun.
+5)Kodun "main.dart" dosyasında 2 adet "ws//ipaddress:9090" kısmı var, bu kısma internetinizin ipaddresinizi girmelisiniz (çoğunlukla 192.168.x.x).
+3)Kodu Telefonunuzda çalıştırın.
+4)ROS kurulu bilgisayarınızdan aşağıdaki kodları terminale farklı terminallerden olmak üzere yazın. 
+Bu işlem mobil uygulamanın çalışması için gerekli olan ortamı sağlayacaktır.
+roslaunch rosbridge_server rosbridge_websocket.launch
+roslaunch turtlebot3_gazebo turtlebot3_autorace.launch
+5)Telefondan şuan oyunu dilediğiniz gibi oynayabilirsiniz.
