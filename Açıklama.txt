@@ -1,4 +1,4 @@
-1)Misc Dosyasında yazılı olan uygulamaların kurulu olduğundan emin olun
+1)GerekliProgramlar Dosyasında yazılı olan uygulamaların kurulu olduğundan emin olun
 !!!!! ROS, Linux tabanlı bir işletim sisteminde çalışır (Tercihen Ubuntu 20.04 (Ben onu kullandım))!!!!! 
 2)Telefonunuzu geliştirici moda getirin.
 4)Kodun içerisinde Websocket bağlantısı kullanılmıştır bu nedenle mobil cihazınızın ve bilgisayarınızın aynı internet bağlantısına sahip olduğundan emin olun.
